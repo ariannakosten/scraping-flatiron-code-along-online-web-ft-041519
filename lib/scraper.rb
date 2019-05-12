@@ -23,8 +23,9 @@ class Scraper
       course.title = post.css("h2").text          #giving instance title, schedule, descirption
       course.schedule = post.css(".date").text
       course.description = post.css("p").text
-      binding.pry
+      #binding.pry
     end
+    binding.pry
     end
     
   end
