@@ -20,9 +20,10 @@ class Scraper
      
     doc.css(".post").each do |post|
       course = Course.new
-      course.title = post.css("h2").text
+      course.title = post.css("h2").text          #giving instance title, schedule, descirption
       course.schedule = post.css(".date").text
       course.description = post.css("p").text
+      binding,pry
     end
   end
     
