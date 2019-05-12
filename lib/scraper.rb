@@ -26,7 +26,7 @@ class Scraper
       binding.pry
     end
     end
-    binding.pry
+    
   end
     
 
