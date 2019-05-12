@@ -32,6 +32,7 @@ class Scraper
         course.description = post.css("p").text
       end
     end
+  end
          
     # doc.css(".post").each do |post|
     #   course = Course.new
